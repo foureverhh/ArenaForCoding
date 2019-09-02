@@ -10,7 +10,7 @@ public class CheckName1 {
         while(true) {
             try {
                 //Handle no input
-                if (name == null||name.isEmpty()) {
+                if (name == null||name.trim().isEmpty()) {
                     name = JOptionPane.showInputDialog("A name must be input, please.");
                 }
                 //Handle name is longer than 20 letters
