@@ -22,5 +22,6 @@ public enum  Numbers {
 
         int value = Enum.valueOf(Numbers.class,"M").number1;
         System.out.println(value);
+        //Numbers n = Numbers.I.V;
     }
 }
