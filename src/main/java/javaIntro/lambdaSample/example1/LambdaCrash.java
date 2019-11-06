@@ -1,5 +1,8 @@
 package javaIntro.lambdaSample.example1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LambdaCrash {
     public static void main(String[] args) {
         /*
@@ -16,11 +19,17 @@ public class LambdaCrash {
         //(o1,o2)->{return o1.compareTo(o2)}
         //(o1,o2)->o1.compareTo(o2);
         System.out.println(stringComparatorLambda.compare("hello","world"));
-        */
+
+
         MyFunction myFunction = (text1,text2) -> "Hello World" + text1+" "+text2;
 
         String result = myFunction.apply(" text1","text2");
         System.out.println(result);
+        */
+
+        List<Integer> list = new ArrayList<>();
+        list.stream().forEach(l-> {});
+
     }
 
 }

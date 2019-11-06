@@ -28,7 +28,7 @@ public class Task1_A extends JFrame implements ActionListener {
         setVisible(true);
     }
 
-    @Override
+
     public void actionPerformed(ActionEvent e) {
         if(e.getSource().equals(button) && counter%2==0){
             counter++;
